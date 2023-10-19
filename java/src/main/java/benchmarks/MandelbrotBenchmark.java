@@ -1,9 +1,8 @@
 package benchmarks;
 
-import mandelbrot.Mandelbrot;
+import m.Mandelbrot;
 import org.openjdk.jmh.annotations.*;
 
-import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 @Warmup(iterations = 5, time = 1, timeUnit = TimeUnit.MILLISECONDS)
